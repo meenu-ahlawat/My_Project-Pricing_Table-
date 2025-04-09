@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1.0">
+  <title>Pricing_Table</title>
+  <style>
+  body{ 
+  font-family: "Sono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:"MONO" 1;
+  background: #257180 ;}
+
+.container{ display:flex;
+          gap:30px;
+          justify-content:center;
+          align-items:center;
+          height:80vh;
+          margin:100px;
+          }
+ .box1{
+   flex:1;
+   background:#D9DFC6;
+   padding:20px;
+   height:auto;
+   width:330px;
+   border-radius:10%;}
+   
+   
+   
+  .title{ font-size:24px;
+     font-weight:bolder;
+     text-align:center;
+     margin-bottom:10px;}
+   
+  .price-plan{font-size:48px;
+     font-weight:bold;
+     text-align:center;
+     margin-bottom:10px;
+  
+}
+  
+   ul{list-style:none;
+   font-size:20px;
+    padding:5px;
+     margin:10px;
+     text-align:center;
+      
+     }
+     
+    button{background:#D98324;
+    height:40px;
+    width:80px;
+    border-radius:10%;
+    margin-left:40%;
+    cursor:pointer;}
+    
+    @media(max-width:1200px){
+      .container{flex-direction:column; 
+      height:100%;}
+    }
+    
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sono:wght@200..800&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+<div class="container">
+  <div class="box1 ">
+    <div class="title">
+     Basic </div>
+   <div class="price-plan">11.99/month
+    </div>
+    <ul>
+      <li>✅ 10GB Storage</li><br>
+      <li>✅ 1 User</li><br>
+      <li>🚫 Support</li><br>
+    </ul>
+    <button>
+      <p>
+      Sign Up
+      </p>
+    </button>
+   </div>
+   
+   <div class="box1 ">
+    <div class="title">
+     Standard </div>
+   <div class="price-plan">19.99/month
+    </div>
+    <ul>
+      <li>✅ 50GB Storage</li><br>
+      <li>✅ 5 User</li><br>
+      <li>✅ Phone & Email Support</li><br>
+    </ul>
+    <button>
+      <p>
+      Sign Up
+      </p>
+    </button>
+   </div>
+   
+   
+   <div class="box1">
+    <div class="title">
+     Premium </div>
+   <div class="price-plan">49.99/month
+    </div>
+    <ul>
+      <li>✅ 100GB Storage</li><br>
+      <li>✅ 10 User</li><br>
+      <li>✅ 24/7 Support</li><br>
+    </ul>
+    <button>
+      <p>
+      Sign Up
+      </p>
+    </button>
+   </div>
+  
+</div>
+
+  
+</body>
+</html>
